@@ -1,7 +1,7 @@
 Cuadro de Fotos
 Este proyecto consiste en una aplicación web simple que muestra una galería de fotos en un diseño de cuadrícula. Las imágenes se pueden cargar desde una ubicación local y se presentan de manera organizada y estética en la página web.
 
-<img src="/Cuadro-de-Fotos/assets
+<img src="./assets
 /Img del proyecto.jpeg" alt="Fotos" width="500">
 
 Funcionalidades
