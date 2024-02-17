@@ -1,7 +1,7 @@
 Cuadro de Fotos
 Este proyecto consiste en una aplicación web simple que muestra una galería de fotos en un diseño de cuadrícula. Las imágenes se pueden cargar desde una ubicación local y se presentan de manera organizada y estética en la página web.
 
-<img src="./Proyect-Test/assets/Img del proyecto.png" alt="Speech to Text Converter" width="500">
+<img src=".assets/Img del proyecto" alt="Fotos" width="500">
 
 Funcionalidades
 Carga de imágenes: Los usuarios pueden cargar imágenes desde su dispositivo local para agregarlas a la galería.
