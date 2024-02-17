@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 1000px;
+    background-color: black;
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@keyframes girar{
+    from{
+        transform: rotateY(360deg) translateZ(150px);
+        z-index: 10;
+    }
+    50%{
+        z-index: -10;
+    }
+    to{
+        transform: rotateY(0) translateZ(150px);
+        z-index: 10;
+    }
+}
+
+#lado-d{
+    background-image: url(lado_d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#lado-d:hover{
+    box-shadow: 0px 0px 43px 0px rgba(255,0,0,0.75);
+    -webkit-box-shadow:0px 0px 43px 0px rgba(255,0,0,0.75);
+    -moz-box-shadow: 0px 0px 43px 0px rgba(255,0,0,0.75);
+}
+
+#lado-c{
+    background-image: url(lado_c.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -1s;
+}
+
+#lado-c:hover{
+    box-shadow: 0px 0px 43px 0px rgba(255,0,243,0.75);
+    -webkit-box-shadow:0px 0px 43px 0px rgba(255,0,243,0.75);
+    -moz-box-shadow: 0px 0px 43px 0px rgba(255,0,243,0.75);
+}
+
+#lado-b{
+    background-image: url(lado_b.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -2s;
+}
+
+#lado-b:hover{
+    box-shadow: 0px 0px 43px 0px rgba(216, 197, 26, 0.75);
+    -webkit-box-shadow:0px 0px 43px 0px rgba(216, 197, 26, 0.75);
+    -moz-box-shadow: 0px 0px 43px 0px rgba(216, 197, 26, 0.75);
+}
+
+#lado-a{
+    background-image: url(lado_a.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: -3s;
+}
+
+#lado-a:hover{
+    box-shadow: 0px 0px 43px 0px rgba(71, 42, 230, 0.856);
+    -webkit-box-shadow:0px 0px 43px 0px rgba(71, 42, 230, 0.856);
+    -moz-box-shadow: 0px 0px 43px 0px rgba(71, 42, 230, 0.856);
+}
+
+.lado_2{
+    height: 300px;
+    width: 300px;
+    animation: girar_2 4s linear infinite;
+    position: absolute;
+}
+@keyframes girar_2{
+    from{
+        transform: rotateY(360 deg) rotateX(90deg);
+    }
+    to{
+        transform: rotateY(0deg) rotateX(90deg);
+        
+    }
+}
+
+lado-e{
+    background-color: rgb(0,0,0);
+    margin-bottom: 300px;
+}
+
+lado-f{
+    background-color: rgb(0,0,0);
+    margin-top: 300px;
+}
